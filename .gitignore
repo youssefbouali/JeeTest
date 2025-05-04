@@ -1,0 +1,41 @@
+# Eclipse-specific
+/.settings/
+/.project
+.classpath
+
+# Build output
+/bin/
+/target/
+/build/
+
+# Maven
+/logs/
+*.log
+*.tmp
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# IntelliJ (si jamais ouvert avec)
+.idea/
+*.iml
+out/
